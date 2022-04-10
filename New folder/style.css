@@ -1,0 +1,86 @@
+body{
+	background-color:#0E66BC;
+}
+.loginbox{
+	background:#FEFEFE;
+	width:360px;
+	padding:60px;
+	padding-top:50px;
+	padding-bottom:50px;
+	margin:auto;
+	margin-top:80px;
+	box-shadow:0px 0px 15px 2px;
+	animation-name:poloksignup;
+	animation-duration:4s;
+	animation-fill-mode:forwards;
+}
+
+@keyframes poloksignup{
+	from{margin-left:10px;opacity:0;}
+	to{margin-left:400px;opacity:1;}
+		
+	
+	
+	
+}
+
+
+
+.loginbox input{
+	width:100%;
+	padding:19px 0px 19px 18px;
+	display:block;
+	font-size:20px;
+	background:#d4dcda;
+	text-align:;
+	margin-bottom:20px;
+	outline:none;
+	border:none;
+	
+}
+.signupbtn{
+	color:#ffffff;
+	background:#4a7580 !important;
+	width:40% !important;
+	text-align:center !important;
+	padding:15px 10px 10px 10px !important;
+	font-weight:600;
+	font-size:20px;
+	cursor:copy;
+	float:left;
+	overflow:hidden;
+	font-family: 'Open Sans', sans-serif;
+}
+.loginbox h2{
+	text-align:center;
+	margin:0;
+	margin-bottom:20px;
+	font-family: 'Noto Sans JP', sans-serif;
+	font-weight:900;
+	text-transform:uppercase;
+	color:#5352a58c;
+	font-size:35px;
+	text-shadow:2px 1px 1px #3c2c38;
+	
+}
+.signupbtn:hover{
+	background:linear-gradient(#4a5580,#8C0C3C) !important;
+	cursor:copy;
+}
+
+.signupbtn:hover{
+	background:linear-gradient(#8c0c3c,#4a5580) !important;
+}
+
+.signinbtn{
+	margin-top:10px;
+	text-align:right;
+	color:#006DB8;
+	
+	width:80%;
+	font-size:22px;
+	padding:20px;
+}
+..signinbtn a{
+	color:#006DB8 !important;
+}
